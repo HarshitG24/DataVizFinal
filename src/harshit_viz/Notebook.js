@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { Runtime, Inspector } from "@observablehq/runtime";
 import notebook from "8b3bb9e7326b0f3c";
 
-function NodeLink() {
+function Notebook() {
   const link_nodeRef = useRef();
 
   useEffect(() => {
@@ -27,4 +27,4 @@ function NodeLink() {
   );
 }
 
-export default NodeLink;
+export default Notebook;

@@ -1,17 +1,14 @@
 import "./App.css";
-import Notebook from "./harshit_viz/Notebook";
-import TreeMap from "./harshit_viz/TreeMap";
-// import TreeMap from "./harshit_viz/TreeMap";
+import NodeLink from "./harshit_viz/NodeLink";
+import Race from "./harshit_viz/Race";
 import Trends from "./harshit_viz/Trends";
-import Causes from "./mihir_viz/Causes";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Trends />
-      <Causes />
-      <Notebook />
-      <TreeMap />
+      <NodeLink />
+      <Race />
     </div>
   );
 }

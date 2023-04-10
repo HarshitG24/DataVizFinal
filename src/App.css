@@ -1,17 +1,6 @@
 .container {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  flex: 1;
-}
-
-.child1 {
-  display: flex;
-  flex: 0.4;
-  background: green;
-}
-
-.child2 {
-  display: flex;
-  flex: 0.6;
-  background: orange;
+  margin: 3rem;
 }

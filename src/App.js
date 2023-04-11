@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="container">
       <Trends />
+      <hr />
       <NodeLink />
+      <hr />
       <Race />
     </div>
   );

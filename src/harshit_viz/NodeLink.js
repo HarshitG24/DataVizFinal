@@ -18,8 +18,8 @@ function NodeLink() {
   return (
     <>
       <h2>
-        Suicide rate for different races/ethnicity in democratic and republic US
-        states from 2016-2020
+        2. Suicide rate for different races/ethnicity in democratic and republic
+        US states from 2016-2020
       </h2>
       <div ref={keyRef} />
       <div ref={link_nodeRef} />

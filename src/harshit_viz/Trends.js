@@ -16,7 +16,7 @@ function Trends() {
 
   return (
     <>
-      <h2>Suicide rates in US from 1999-2020</h2>
+      <h2>1. Suicide rates in US from 1999-2020</h2>
       <div ref={suicide_trendRef} />
     </>
   );

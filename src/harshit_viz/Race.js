@@ -15,7 +15,7 @@ function Race() {
 
   return (
     <>
-      <h2>Suicide rate among race/ethnicity in US from 1999-2000</h2>
+      <h2>Suicide trends aong different race/ethnicity from 1999-2020</h2>
       <div ref={race_graphRef} />
     </>
   );

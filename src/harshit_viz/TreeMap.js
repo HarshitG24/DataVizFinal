@@ -26,14 +26,12 @@ function TreeMap() {
 
   return (
     <>
+      <h2>
+        6. Suicide Rate among different race/ethnicity grouped by age
+        group/method
+      </h2>
       <div ref={viewofSuicide_groupRef} />
       <div ref={explore_treeRef} />
-      <p>
-        Credit:{" "}
-        <a href="https://observablehq.com/d/74b30d22410a25d6">
-          Treemap exploration by Harshit Gajjar
-        </a>
-      </p>
     </>
   );
 }

@@ -2,6 +2,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0 5rem;
+  /* margin: 0 5rem; */
+  background: rgb(235, 230, 219);
+  padding-left: 2rem;
   /* padding-left: 1rem; */
+}
+
+.intro {
+  padding-right: 3rem;
+  font-size: 1.2rem;
 }

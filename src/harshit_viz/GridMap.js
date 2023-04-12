@@ -17,7 +17,9 @@ function GridMap() {
 
   return (
     <>
-      <h2>4. Veteran Suicide Rate across different regions of US</h2>
+      <h2>
+        4. Veteran Suicide Rate across different regions of US from 2005-2011
+      </h2>
       <div ref={legendRef} />
       <div ref={withColor2Ref} />
     </>

@@ -28,7 +28,7 @@ function TreeMap() {
     <>
       <h2>
         6. Suicide Rate among different race/ethnicity grouped by age
-        group/method
+        group/method from 1999-2020
       </h2>
       <div ref={viewofSuicide_groupRef} />
       <div ref={explore_treeRef} />
